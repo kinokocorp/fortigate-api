@@ -24,6 +24,8 @@ IMPLEMENTED_OBJECTS = (
     "api/v2/cmdb/system.snmp/community/",
     "api/v2/cmdb/system/external-resource/",
     "api/v2/cmdb/system/interface/",
+    "api/v2/cmdb/vpn.ipsec/phase1-interface/",
+    "api/v2/cmdb/vpn.ipsec/phase2-interface/",
     "api/v2/cmdb/system/zone/",
 )
 

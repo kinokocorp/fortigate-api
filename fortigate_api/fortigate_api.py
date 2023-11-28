@@ -20,6 +20,8 @@ from fortigate_api.service_group import ServiceGroup
 from fortigate_api.snmp_community import SnmpCommunity
 from fortigate_api.ssh import SSH
 from fortigate_api.virtual_ip import VirtualIP
+from fortigate_api.vpn_phase1 import VpnPhase1
+from fortigate_api.vpn_phase2 import VpnPhase2
 from fortigate_api.zone import Zone
 
 
@@ -82,6 +84,8 @@ class FortigateAPI:
         self.service_group = ServiceGroup(self.rest)
         self.snmp_community = SnmpCommunity(self.rest)
         self.virtual_ip = VirtualIP(self.rest)
+        self.vpn_phase1 = VpnPhase2(self.rest)
+        self.vpn_phase2 = VpnPhase2(self.rest)
         self.zone = Zone(self.rest)
 
     def __repr__(self):
