@@ -20,6 +20,7 @@ IMPLEMENTED_OBJECTS = (
     "api/v2/cmdb/firewall/ippool/",
     "api/v2/cmdb/firewall/policy/",
     "api/v2/cmdb/firewall/vip/",
+    "api/v2/cmdb/router/static/",
     "api/v2/cmdb/system.dhcp/server/",
     "api/v2/cmdb/system.snmp/community/",
     "api/v2/cmdb/system/external-resource/",

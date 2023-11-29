@@ -13,6 +13,7 @@ from fortigate_api.interface import Interface
 from fortigate_api.internet_service import InternetService
 from fortigate_api.ip_pool import IpPool
 from fortigate_api.policy import Policy
+from fortigate_api.router_static import RouterStatic
 from fortigate_api.schedule import Schedule
 from fortigate_api.service import Service
 from fortigate_api.service_category import ServiceCategory
@@ -78,6 +79,7 @@ class FortigateAPI:
         self.internet_service = InternetService(self.rest)
         self.ip_pool = IpPool(self.rest)
         self.policy = Policy(self.rest)
+        self.router_static = RouterStatic(self.rest)
         self.schedule = Schedule(self.rest)
         self.service = Service(self.rest)
         self.service_category = ServiceCategory(self.rest)
