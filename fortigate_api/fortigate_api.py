@@ -86,7 +86,7 @@ class FortigateAPI:
         self.service_group = ServiceGroup(self.rest)
         self.snmp_community = SnmpCommunity(self.rest)
         self.virtual_ip = VirtualIP(self.rest)
-        self.vpn_phase1 = VpnPhase2(self.rest)
+        self.vpn_phase1 = VpnPhase1(self.rest)
         self.vpn_phase2 = VpnPhase2(self.rest)
         self.zone = Zone(self.rest)
 
